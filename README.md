@@ -52,7 +52,7 @@ npm test
 ```
 
 ### What can be improved
-- allow version contain ^, @ etc.
+- allow version containing ^, @ etc.
 - search module in all dependency types in package.json
 - increase test coverage
 - refactor src/index.ts file (add error handling, maybe group functions into main function)
