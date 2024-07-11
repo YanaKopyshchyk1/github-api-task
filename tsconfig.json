@@ -1,0 +1,15 @@
+{
+    "extends": "@tsconfig/node-lts/tsconfig.json",
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "module": "preserve",
+        "moduleResolution": "bundler",
+        "outDir": "dist"
+    },
+    "include": ["**/*"],
+    "exclude": ["node_modules"],
+    "ts-node": {
+        "esm": true,
+        "experimentalSpecifierResolution": "node",       
+    }
+}
