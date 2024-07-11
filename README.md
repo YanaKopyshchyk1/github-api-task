@@ -39,7 +39,7 @@ Before running the project, make sure you have the following installed:
 
 ## Usage
 
-To run the project, use the following command:
+To run the project, use the following command and provide repo, module, and version:
 
 ```bash
 npm start repo=github-repo module=npm-module-name version=npm-module-version
@@ -50,3 +50,9 @@ To run the tests, use the following command:
 ```bash
 npm test
 ```
+
+### What can be improved
+- allow version contain ^, @ etc.
+- search module in all dependency types in package.json
+- increase test coverage
+- refactor src/index.ts file (add error handling, maybe group functions into main function)
