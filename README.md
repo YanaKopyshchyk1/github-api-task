@@ -55,4 +55,5 @@ npm test
 - allow version containing ^, @ etc.
 - search module in all dependency types in package.json
 - increase test coverage
+- add linter and Prettier
 - refactor src/index.ts file (add error handling, maybe group functions into main function)
