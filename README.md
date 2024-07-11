@@ -53,6 +53,7 @@ npm test
 
 ### What can be improved
 - allow version containing ^, @ etc.
+- find package.json path in repo (it may not be in the root folder)
 - search module in all dependency types in package.json
 - increase test coverage
 - add linter and Prettier
