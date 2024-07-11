@@ -21,6 +21,7 @@ if (currentVersion !== version) {
 
     // update package.json dependencies with the new version
     const fileObj = await getFile(repo)
+    // TODO: must be searched in other dependencies
     fileObj.dependencies[module] = version
     
     // get package.json SHA for upating the file
